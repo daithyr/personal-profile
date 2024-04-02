@@ -10,6 +10,8 @@ st.header("Hi, I am Daithy")
 col1, col2 = st.columns(2)
 
 with col1:
+    st.subheader("About")
+    st.write("Hi, I am Daithy. Welcome to my homepage")
     st.subheader("Education")
     st.write("University of Washington - Technology Innovation")
     st.subheader("Work Experience")
