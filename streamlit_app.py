@@ -15,18 +15,16 @@ with col1:
     st.subheader("Work Experience")
     st.write("SDE internship @ DragonTesting")
     st.subheader("Hobbies")
-    st.write("Sleep")
+    st.write("Sleeping and Hiking")
     st.subheader("Interesting project")
     st.write("none")
 
 with col2:
-    st.image('chelsey.JPG', caption='Me')
-    st.link_button("LinkedIn", "https://www.linkedin.com/in/chinshanlee/", help=None, type="secondary", disabled=False, use_container_width=False)
+    st.image('Daithy.JPG', caption='Me')
+    st.link_button("LinkedIn", "www.linkedin.com/in/daithy-ren", help=None, type="secondary", disabled=False, use_container_width=False)
 
 st.divider()
 
-st.header("My Favorite Song")
-st.video("https://youtu.be/wA3mVqo-jvg?si=6fWBvft5O7-k2TcY", format="video/mp4", start_time=0)
 
 st.divider()
 
